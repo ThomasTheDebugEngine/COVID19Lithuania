@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap" rel="stylesheet">
+    <script src="./scripts/main.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdownContainer">
+
+        <div class="dropdownDisplayField">
+            <h1>Select an option >> </h1>
+            
+            <div class="DistrictList">
+                <ul>
+                    <li>Alytaus apskritis</li>
+                    <li>Kauno apskritis</li>
+                    <li>Klaipėdos apskritis</li>
+                    <li>Marijampolės apskritis</li>
+                    <li>Panevėžio apskritis</li>
+                    <li>Šiaulių apskritis</li>
+                    <li>Tauragės apskritis</li>
+                    <li>Telšių apskritis</li>
+                    <li>Utenos apskritis</li>
+                    <li>Vilniaus apskritis</li>
+                </ul>
+            </div>
+
+        </div>
+        
+        <div class="triangleButton">
+            <div class="triangle"></div>
+        </div>
+        
+    </div>
+        
+        <form action="" method="post" class="inputsContainer" autocomplete="off">
+            <div class="inputComponent">
+                <h1>Total Cases</h1>
+                <input type="text" class="inputBox" id="activeField" required="true">
+            </div>
+
+            <div class="inputComponent">
+                <h1>Recovered</h1>
+                <input type="text" class="inputBox" id="recoveredField" required="true">
+            </div>
+    
+            <div class="inputComponent">
+                <h1>Deaths</h1>
+                <input type="text" class="inputBox" id="deathField" required="true">
+            </div>
+    
+            <div class="inputComponent">
+                <h1>Source</h1>
+                <input type="text" class="inputBox" id="SourceField" required="true">
+            </div>
+    
+            <button class="submitButton">Submit</button>        
+        </form>
+</body>
+</html>

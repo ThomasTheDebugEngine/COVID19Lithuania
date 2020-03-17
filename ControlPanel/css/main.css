@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #333333;
+  font-size: 16.5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dropdownContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 22rem;
+  height: 3.5rem;
+  top: 4rem;
+  left: 5rem;
+}
+
+.dropdownDisplayField {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background: grey;
+}
+
+.dropdownDisplayField h1 {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.DistrictList {
+  position: absolute;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 3.5rem;
+  display: none;
+  margin: 0px 10px 0px 0px;
+}
+
+.DistrictList ul {
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 1.2rem;
+  background: lavender;
+}
+
+.DistrictList ul li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.1rem solid black;
+  padding: 0.2rem;
+}
+
+.DistrictList.active {
+  -webkit-transition: ease-in-out 250ms;
+  transition: ease-in-out 250ms;
+  display: block;
+}
+
+.triangleButton {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  -ms-flex-negative: 3;
+      flex-shrink: 3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: lavender;
+  border-left: none;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 0.6rem solid transparent;
+  border-right: 0.6rem solid transparent;
+  border-top: 1rem solid #333333;
+}
+
+.inputsContainer {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  top: 25%;
+  right: 5%;
+  width: 31rem;
+  height: 30rem;
+  padding: 1rem;
+}
+
+.inputsContainer .inputBox {
+  position: relative;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 0;
+  padding: 0.1rem;
+  margin-right: 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.inputsContainer .submitButton {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.inputsContainer .submitButton:hover {
+  background-color: #8c8c8c;
+}
+
+.inputComponent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.inputComponent h1 {
+  margin: 0 1rem 0 0;
+  color: azure;
+}
+
+.inputComponent #SourceField {
+  position: relative;
+  width: 19rem;
+}
+/*# sourceMappingURL=main.css.map */
