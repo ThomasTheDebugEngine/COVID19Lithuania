@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <body>
+        <div class="card">
+            <h1>Control Panel</h1>
+            <div class="container">
+                <select onchange="myFunction();" id="regions">
+                    <option value="placeholder" disabled selected>Select...</option>
+                    <option value="alytus">Alytaus apskritis</option>
+                    <option value="kaunas">Kauno apskritis</option>
+                    <option value="klaipeda">Klaipėdos apskritis</option>
+                    <option value="marijampole">Marijampolės apskritis</option>
+                    <option value="panevezys">Panevėžio apskritis</option>
+                    <option value="siauliai">Šiaulių apskritis</option>
+                    <option value="taurage">Tauragės apskritis</option>
+                    <option value="telsiai">Telšių apskritis</option>
+                    <option value="utena">Utenos apskritis</option>
+                    <option value="vilnius">Vilniaus apskritis</option>
+                </select>
+                <br><br>
+                <form action="" id="form">
+                    <input type="number" id="active" name="active" placeholder="Active" required><br><br>
+                    <input type="number" id="recovered" name="recovered" placeholder="Recovered" required><br><br>
+                    <input type="number" id="fatal" name="fatal" placeholder="Fatal" required><br><br>
+                    <input type="text" id="source" name="source" placeholder="Source" required><br><br>
+                    <input type="submit" value="submit" id="submit"><br><br>
+                </form> 
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
